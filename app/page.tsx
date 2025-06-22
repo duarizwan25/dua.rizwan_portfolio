@@ -1148,7 +1148,7 @@ export default function Portfolio() {
                       asChild
                               >
                         <a
-                           href="https://medium.com/@duarizwan"
+                           href="https://medium.com/@duaerizwan05"
                            target="_blank"
                            rel="noopener noreferrer"
                            >
