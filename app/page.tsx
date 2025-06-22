@@ -1114,6 +1114,51 @@ export default function Portfolio() {
                 </CardContent>
               </Card>
             </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.5 }}
+            >
+              <Card className={`${cardClass} text-center transition-all duration-300 backdrop-blur-sm`}>
+                <CardHeader>
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                       viewBox="0 0 1043.63 592.71"
+                        className="w-12 h-12 mx-auto mb-4 fill-black dark:fill-white"
+                  >
+                   <g>
+                     <path d="M588.67,296.31c0,163.66-131.92,296.4-294.77,296.4S0,459.97,0,296.31,131.92,0,293.9,0s294.77,132.65,294.77,296.31" />
+                     <path d="M843.16,296.31c0,151.23-65.6,273.77-146.46,273.77s-146.46-122.54-146.46-273.77,65.6-273.77,146.46-273.77,146.46,122.54,146.46,273.77" />
+                     <path d="M1043.63,296.31c0,140.47-28.99,254.42-64.76,254.42s-64.76-113.95-64.76-254.42,28.99-254.42,64.76-254.42,64.76,113.95,64.76,254.42" />
+                  </g>
+                </svg>
+                  <CardTitle className={`${textPrimary} transition-colors duration-500`}>Medium</CardTitle>
+               </CardHeader>
+                 <CardContent>
+                   <p className={`${textSecondary} text-sm mb-4 transition-colors duration-500`}>@duarizwan</p>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className={`${
+                      isDarkMode
+                      ? "border-slate-600 text-slate-300 hover:bg-slate-700"
+                      : "border-amber-300 text-amber-800 hover:bg-amber-50"
+                      } transition-all duration-500`}
+                      asChild
+                              >
+                        <a
+                           href="https://medium.com/@duarizwan"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           >
+                             Read Articles
+                         </a>
+                     </Button>
+                  </CardContent>
+              </Card>
+            </motion.div>
+
           </div>
 
           <motion.div
