@@ -1136,7 +1136,7 @@ export default function Portfolio() {
                   <CardTitle className={`${textPrimary} transition-colors duration-500`}>Medium</CardTitle>
                </CardHeader>
                  <CardContent>
-                   <p className={`${textSecondary} text-sm mb-4 transition-colors duration-500`}>@duarizwan</p>
+                   <p className={`${textSecondary} text-sm mb-4 transition-colors duration-500`}>@duaerizwan05</p>
                     <Button
                       variant="outline"
                       size="sm"
